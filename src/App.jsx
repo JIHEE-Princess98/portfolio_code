@@ -5,11 +5,12 @@ import { Hero } from './pages/Hero.jsx';
 import { AboutMe } from './pages/about/AboutMe.jsx';
 import { Projects } from './pages/project/Projects.jsx';
 import { Contact } from './pages/connect/Contact.jsx';
+import CustomCursor from './components/CustomCursor.jsx';
 
 function App() {
   return (
     <div className="relative min-h-screen overflow-hidden text-white">
-
+      <CustomCursor />
       <Navigation/>
       <Hero/>
       <AboutMe/>

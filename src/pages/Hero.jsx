@@ -50,7 +50,7 @@ export const Hero = () => {
           </motion.div>
 
           <motion.div variants={item}>
-            <Link to="contact" smooth className="hover:text-pink-100 cursor-pointer">
+            <Link to="contact" smooth className="hover:text-pink-100">
               <Button className="mt-5 w-35 bg-pink-500 hover:bg-pink-600 text-white border-0">
                 CONTACT
               </Button>

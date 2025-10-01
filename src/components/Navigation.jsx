@@ -20,7 +20,7 @@ export const Navigation = () => {
               spy={true}
               offset={-80}
               activeClass="text-pink-400"
-              className="cursor-pointer hover:text-pink-400 transition-colors"
+              className="hover:text-pink-400 transition-colors"
             >
               {item.label}
             </Link>
