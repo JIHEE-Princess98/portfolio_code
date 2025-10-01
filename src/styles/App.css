@@ -1,0 +1,13 @@
+@keyframes glowPulse {
+    0%, 100% {
+        text-shadow: 0 0 5px #bc5555, 0 0 2px #950a4a, 0 0 20px #3c0924;
+    }
+    50% {
+        text-shadow: 0 0 2px #ec4899, 0 0 20px #ec4899, 0 0 30px #ec4899;
+    }
+}
+
+.glow-animate {
+    color: #ec4899;
+    animation: glowPulse 2s ease-in-out infinite;
+}
