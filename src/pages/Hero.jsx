@@ -40,7 +40,7 @@ export const Hero = () => {
           <motion.h1 variants={item} className="text-5xl font-bold mb-2">Hi,</motion.h1>
 
           <motion.h1 variants={item} className="text-5xl font-bold mb-2">
-            I'm <span className="glow-animate">JIHEE</span>
+            I'm <span className="glow-animate text-pink-500">JIHEE</span>
           </motion.h1>
 
           <motion.h1 variants={item} className="text-5xl font-bold mb-6">Web developer</motion.h1>
@@ -51,7 +51,7 @@ export const Hero = () => {
 
           <motion.div variants={item}>
             <Link to="contact" smooth className="hover:text-pink-100">
-              <Button className="mt-5 w-35 bg-pink-500 hover:bg-pink-600 text-white border-0">
+              <Button className="mt-5 w-37" style={{height: 40}}>
                 CONTACT
               </Button>
             </Link>

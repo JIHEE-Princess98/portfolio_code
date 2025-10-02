@@ -6,6 +6,7 @@ import { AboutMe } from './pages/about/AboutMe.jsx';
 import { Projects } from './pages/project/Projects.jsx';
 import { Contact } from './pages/connect/Contact.jsx';
 import CustomCursor from './components/CustomCursor.jsx';
+import { FloatButton } from 'antd';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <AboutMe/>
       <Projects/>
       <Contact/>
+      <FloatButton.BackTop />
       {/* 배경 */}
       <div className="fixed inset-0 -z-10">
         <SpaceBackground className="h-screen w-screen" />

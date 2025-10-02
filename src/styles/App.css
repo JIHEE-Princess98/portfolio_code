@@ -11,3 +11,12 @@
     color: #ec4899;
     animation: glowPulse 2s ease-in-out infinite;
 }
+
+@layer utilities {
+    .fade-up {
+        @apply opacity-0 translate-y-6 transition-all duration-700;
+    }
+    .fade-up.show {
+        @apply opacity-100 translate-y-0;
+    }
+}

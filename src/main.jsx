@@ -18,15 +18,23 @@ createRoot(document.getElementById('root')).render(
           },
           components: {
             Button: {
-              colorPrimaryHover: "#db2777",   // pink-600
-              colorPrimaryActive: "#be185d",  // pink-700
               borderRadius: 10,
-              defaultBg: "transparent",
               controlHeight: 48,
               fontSize: 18,
-              boxShadow: "none",
-            }
-          }
+              boxShadow: 'none',
+
+              defaultBg: 'transparent',
+              defaultHoverBg: 'transparent',
+              defaultActiveBg: 'transparent',
+
+              defaultBorderColor: '#db2777',
+              defaultHoverBorderColor: '#be185d',
+              defaultActiveBorderColor: '#9d174d',
+              defaultColor: '#db2777',
+              defaultHoverColor: '#be185d',
+              defaultActiveColor: '#9d174d',
+            },
+          },
         }}
       >
         <App />
